@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../HTMLTestRunner_PY3-master/.idea/HTMLTestRunner_PY3-master.iml" filepath="$PROJECT_DIR$/../HTMLTestRunner_PY3-master/.idea/HTMLTestRunner_PY3-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../app/.idea/app.iml" filepath="$PROJECT_DIR$/../app/.idea/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../test_appium2/.idea/test_appium.iml" filepath="$PROJECT_DIR$/../test_appium2/.idea/test_appium.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../test_sel/.idea/test_sel.iml" filepath="$PROJECT_DIR$/../test_sel/.idea/test_sel.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/web.iml" filepath="$PROJECT_DIR$/.idea/web.iml" />
     </modules>
   </component>

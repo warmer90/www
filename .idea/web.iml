@@ -6,6 +6,10 @@
     </content>
     <orderEntry type="jdk" jdkName="Python 3.8" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="app" />
+    <orderEntry type="module" module-name="test_appium" />
+    <orderEntry type="module" module-name="HTMLTestRunner_PY3-master" />
+    <orderEntry type="module" module-name="test_sel" />
   </component>
   <component name="PackageRequirementsSettings">
     <option name="requirementsPath" value="" />
