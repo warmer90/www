@@ -12,7 +12,8 @@ class TestBrowser():
             "platformName": "Android",
             "deviceName": "127.0.0.1:7555",
             "browserName": "Browser",
-            "noReset": True
+            "noReset": True,
+
         }
         self.driver = webdriver.Remote("http://127.0.0.1:4723/wd/hub", desire_caps)
         self.driver.implicitly_wait(5)

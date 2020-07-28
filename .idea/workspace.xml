@@ -19,13 +19,26 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44d75302-daf0-48aa-83cb-5e1801162324" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test_appium/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_appium/test_browser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_appium/test_param.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/web.iml" afterDir="false" />
+    <list default="true" id="44d75302-daf0-48aa-83cb-5e1801162324" name="Default Changelist" comment="2">
+      <change afterPath="$PROJECT_DIR$/APP/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APP/page/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APP/page/addmember.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APP/page/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APP/page/basepage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APP/page/editMember.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APP/page/invitemember.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APP/page/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APP/page/memberlist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APP/page/personal_info.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APP/test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APP/test/test_content.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APP/testcase/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APP/testcase/test_del_member.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APP/testcase/testaddmember.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_appium/test_toutiao.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_appium/test_webview_xueqiu.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_appium/test_browser.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_appium/test_browser.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +65,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../test_sel" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -61,77 +74,56 @@
       <recent name="E:\warmer\app\testcases" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_browser.TestBrowser.test_browser">
-    <configuration name="test_param (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="test_appium" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../test_appium" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../test_appium/test_param.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_browser.TestBrowser" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.pytest for test_del_member.TestDelMember.test_del_member">
+    <configuration name="pytest for test_content.TestContent.test_contact" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="web" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_appium" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/APP/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_browser.TestBrowser&quot;" />
+      <option name="_new_target" value="&quot;test_content.TestContent.test_contact&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_browser.TestBrowser.test_browser" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_content.TestContent.test_content" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="web" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_appium" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/APP/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_browser.TestBrowser.test_browser&quot;" />
+      <option name="_new_target" value="&quot;test_content.TestContent.test_content&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_param.TestParams" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_del_member.TestDelMember.test_del_member" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="web" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_appium" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/APP/testcase" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_param.TestParams&quot;" />
+      <option name="_new_target" value="&quot;test_del_member.TestDelMember.test_del_member&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_param.TestParams.test_search" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_webview_xueqiu.TestWebviewXueqiu" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="web" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -143,17 +135,33 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_param.TestParams.test_search&quot;" />
+      <option name="_new_target" value="&quot;test_webview_xueqiu.TestWebviewXueqiu&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for testaddmember.TestAddMember.test_addmember" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="web" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/APP/testcase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;testaddmember.TestAddMember.test_addmember&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test_browser.TestBrowser.test_browser" />
-        <item itemvalue="Python tests.pytest for test_browser.TestBrowser" />
-        <item itemvalue="Python tests.pytest for test_param.TestParams" />
-        <item itemvalue="Python tests.pytest for test_param.TestParams.test_search" />
-        <item itemvalue="Python.test_param (1)" />
+        <item itemvalue="Python tests.pytest for test_del_member.TestDelMember.test_del_member" />
+        <item itemvalue="Python tests.pytest for testaddmember.TestAddMember.test_addmember" />
+        <item itemvalue="Python tests.pytest for test_content.TestContent.test_contact" />
+        <item itemvalue="Python tests.pytest for test_content.TestContent.test_content" />
+        <item itemvalue="Python tests.pytest for test_webview_xueqiu.TestWebviewXueqiu" />
       </list>
     </recent_temporary>
   </component>
@@ -168,6 +176,14 @@
       <option name="presentableId" value="Default" />
       <updated>1594822145601</updated>
     </task>
+    <task id="LOCAL-00001" summary="2">
+      <created>1594998010129</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1594998010129</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -180,6 +196,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2" />
+    <option name="LAST_COMMIT_MESSAGE" value="2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="679" y="284" key="#Notifications" timestamp="1594866773383">
@@ -202,25 +223,33 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="642" y="120" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1594866828696" />
-    <state width="1236" height="238" key="GridCell.Tab.0.bottom" timestamp="1594991616601">
+    <state width="1515" height="272" key="GridCell.Tab.0.bottom" timestamp="1595933167580">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1236" height="238" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594991616601" />
-    <state width="1236" height="238" key="GridCell.Tab.0.center" timestamp="1594991616601">
+    <state width="1515" height="272" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595933167580" />
+    <state width="1515" height="272" key="GridCell.Tab.0.center" timestamp="1595933167580">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1236" height="238" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594991616601" />
-    <state width="1236" height="238" key="GridCell.Tab.0.left" timestamp="1594991616600">
+    <state width="1515" height="272" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595933167580" />
+    <state width="1515" height="272" key="GridCell.Tab.0.left" timestamp="1595933167579">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1236" height="238" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594991616600" />
-    <state width="1236" height="238" key="GridCell.Tab.0.right" timestamp="1594991616601">
+    <state width="1515" height="272" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595933167579" />
+    <state width="1515" height="272" key="GridCell.Tab.0.right" timestamp="1595933167580">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1236" height="238" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594991616601" />
-    <state x="311" y="54" key="SettingsEditor" timestamp="1594957433336">
+    <state width="1515" height="272" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595933167580" />
+    <state x="311" y="54" key="SettingsEditor" timestamp="1595855846017">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="311" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1594957433336" />
+    <state x="311" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1595855846017" />
+    <state x="369" y="174" key="Vcs.Push.Dialog.v2" timestamp="1594998019699">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="369" y="174" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1594998019699" />
+    <state x="563" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595943206253">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="563" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1595943206253" />
   </component>
 </project>
